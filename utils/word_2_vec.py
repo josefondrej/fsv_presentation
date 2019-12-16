@@ -8,7 +8,7 @@ import pickle
 from tqdm import tqdm
 
 
-def load_data(file_path: str = "./grimm_fairy_tales.txt") -> List[str]:
+def load_data(file_path: str) -> List[str]:
     words = []
     with open(file_path, "r") as file:
         line = file.readline()
